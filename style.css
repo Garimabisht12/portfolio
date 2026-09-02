@@ -599,4 +599,8 @@ main,
     width: 100%;
   }
 
+  .contact-shell {
+    grid-template-columns: 1fr;
+  }
+
 }
