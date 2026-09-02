@@ -499,7 +499,7 @@ main,
  flex-direction: column;
  gap: 0.7rem;
  justify-content: center;
- width: 30vw;
+ 
 }
 
 .contact-links-panel p {
@@ -556,10 +556,6 @@ main,
  .skill-grid {
    grid-template-columns: 1fr;
  }
-
- .contact-copy{
-  display: none;
- }
  
  .hero {
    padding-top: 3rem;
@@ -601,7 +597,9 @@ main,
  .btn {
    width: 100%;
  }
-
+ .contact-copy{
+  display: none;
+ }
 }
 
 
