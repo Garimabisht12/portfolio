@@ -599,11 +599,11 @@ main,
     width: 100%;
   }
 
-  .contact-copy{
+  .contact{
     display:flex;
   }
 
-  .contact-shell {
+  .contact-copy {
     display: none;
   }
 
