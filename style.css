@@ -455,6 +455,19 @@ main,
   line-height: 1.7;
 }
 
+.links {
+  position: absolute;
+  bottom: 0;
+}
+
+.links .project-link {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.3rem;
+}
+
+
 .contact {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -535,17 +548,6 @@ main,
   font-weight: 700;
 }
 
-.links {
-  position: absolute;
-  bottom: 0;
-}
-
-.links .project-link {
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  margin-left: 0.3rem;
-}
 
 @media (max-width: 900px) {
 
