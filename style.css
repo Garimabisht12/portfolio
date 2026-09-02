@@ -461,7 +461,6 @@ main,
 }
 
 .contact-shell {
-  width: min(860px, calc(100% - 3rem));
   display: grid;
   grid-template-columns: 1fr 1.15fr;
   gap: 4rem;
@@ -552,7 +551,6 @@ main,
 
   .hero,
   .about-grid,
-  .contact-shell,
   .project-grid,
   .skill-grid {
     grid-template-columns: 1fr;
