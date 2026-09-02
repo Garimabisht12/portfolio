@@ -121,7 +121,7 @@ main,
  grid-template-columns: 1.2fr 0.8fr;
  align-items: center;
  gap: 2.5rem;
- min-height: 82vh;
+ min-height: auto;
  width: min(1200px, calc(100% - 2rem));
  margin: 0 auto;
 }
@@ -568,7 +568,7 @@ main,
 @media (max-width: 900px) {
  .hero,
  .about-grid,
- .contact-grid,
+ .contact-shell,
  .project-grid,
  .skill-grid {
    grid-template-columns: 1fr;
