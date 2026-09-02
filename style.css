@@ -599,8 +599,12 @@ main,
     width: 100%;
   }
 
+  .contact-copy{
+    display:flex;
+  }
+
   .contact-shell {
-    grid-template-columns: 1fr;
+    display: none;
   }
 
 }
